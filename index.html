@@ -44,9 +44,21 @@
       }
 
       .presentation {
+        position: relative;
         width: 100vw;
         height: 100vh;
         background: #000;
+      }
+
+      .presentation::after {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+        width: max(0px, min(136px, calc(100% - 160px)));
+        height: 36px;
+        background: #f9fafd;
+        content: "";
       }
 
       .presentation iframe {
