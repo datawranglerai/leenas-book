@@ -9,7 +9,7 @@ viewer and is hosted with GitHub Pages.
 ## Project structure
 
 - `index.html` — page metadata, presentation embed, and layout
-- `favicon.svg` — browser icon
+- `favicon.png` — browser icon
 - `social-preview.png` — image used by social link previews
 - `LICENSE` — proprietary, all-rights-reserved notice
 
